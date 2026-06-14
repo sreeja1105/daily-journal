@@ -2,7 +2,9 @@ name: Daily Auto Commit
 
 on:
   schedule:
-  - cron: '37 7 * * *'
+    - cron: '37 7 * * *'    # 9:37 Munich
+    - cron: '13 12 * * *'   # 14:13 Munich
+    - cron: '47 17 * * *'   # 19:47 Munich
   workflow_dispatch:
 
 permissions:
