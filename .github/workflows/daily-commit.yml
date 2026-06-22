@@ -28,8 +28,8 @@ jobs:
           } >> journal.md
       - name: Commit changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "sreeja1105"
+          git config user.email "kothasreeja1105@gmail.com"
           git add journal.md
           git diff --staged --quiet || git commit -m "Daily entry: $(date -u +%Y-%m-%d)"
           git push
